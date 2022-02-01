@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "lib": ["es2016", "dom", "deno.ns", "deno.unstable"]
+  },
+  "lint": {
+    "rules": {
+      "exclude": ["no-explicit-any", "ban-ts-comment", "no-async-promise-executor"]
+    }
+  },
+  "fmt": {
+	"options": {
+		"useTabs": true,
+		"lineWidth": 120,
+		"indentWidth": 1,
+		"singleQuote": false,
+		"proseWrap": "preserve"
+	}
+  }
+}
